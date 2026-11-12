@@ -1,0 +1,15 @@
+{
+  "district": "8",
+  "lpu": "172",
+  "speciality": "49",
+  "doctor_id": "839",
+  "doctor_name_contains": "Мирагасы Кызы",
+  "patient": {
+    "lastName": "",
+    "firstName": "",
+    "middleName": "",
+    "birthdate": "",
+    "email": "",
+    "phone": ""
+  }
+}

@@ -1,0 +1,86 @@
+# Patient data and local booking settings.
+private/
+client*.md
+config*.txt
+!portable/config.txt
+booking.json
+booking.*.json
+!booking.example.json
+main.json
+rehearsal.json
+
+# Booking results, screenshots and browser session data.
+Результаты/
+ui_examples/
+ui-examples/
+results/
+test-results/
+playwright-report/
+playwright/.auth/
+browser-profile/
+storage-state*.json
+storage_state*.json
+cookies*.json
+submission*.json
+process.json
+заявка-*.json
+результат*.json
+запуск-*.lock
+run-*.lock
+*.log
+*-log.txt
+журнал*.txt
+*.pdf
+*.png
+*.jpg
+*.jpeg
+# Deliberate application assets belong in this directory.
+!gui_assets/**
+
+# Python environments, downloaded browsers and caches.
+.venv/
+venv/
+env/
+.browsers/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Generated distributions and native build products.
+.build/
+build/
+dist/
+release/
+release_gui/
+*.app/
+*.dylib
+*.so
+*.o
+*.dmg
+*.pkg
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Local secrets and editor settings (never commit their contents).
+.env
+.env.*
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
+*~
+
+# macOS filesystem metadata.
+.DS_Store
+._*
+.AppleDouble/
+.LSOverride

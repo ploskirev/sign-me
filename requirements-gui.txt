@@ -1,0 +1,2 @@
+-r requirements-build.txt
+PySide6-Essentials==6.8.3
